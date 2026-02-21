@@ -14,7 +14,7 @@ local Window = Rayfield:CreateWindow({
     ConfigurationSaving = {
        Enabled = true,
        FolderName = beast, -- Create a custom folder for your hub/game
-       FileName = "beast script"
+       FileName = "beast key"
     },
  
  
@@ -23,7 +23,7 @@ local Window = Rayfield:CreateWindow({
        Title = "BeastNerft KeySystem",
        Subtitle = "Bruh, It Will Be Free Soon!",
        Note = "Get Key From Discord! (key get chennged every update/bug!)", -- Use this to tell the user how to get a key
-       FileName = "Beast key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+       FileName = "beast key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
        SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
        GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
        Key = {"https://pastebin.com/raw/tDn3REnB"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
