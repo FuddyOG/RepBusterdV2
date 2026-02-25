@@ -2,9 +2,9 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
  
  
 local Window = Rayfield:CreateWindow({
-    Name = "BeastNerft",
+    Name = "BeastNerft|discord.gg/sYvN9X2TSf",
     Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-    LoadingTitle = "Best AimBot,Esp And Movement Script Join Th discord -> discord.gg/Unknown",
+    LoadingTitle = "Best AimBot,Esp And Movement Script Join Th discord -> discord.gg/sYvN9X2TSf",
     LoadingSubtitle = "by Fuddy",
     Theme = "DarkBlue", -- Check https://docs.sirius.menu/rayfield/configuration/themes
  
@@ -20,13 +20,13 @@ local Window = Rayfield:CreateWindow({
  
     KeySystem = true, -- Set this to true to use our key system
     KeySettings = {
-       Title = "BeastNerft KeySystem",
-       Subtitle = "Bruh, It Will Be Free Soon!",
-       Note = "Get Key From Discord! (key get chennged every update/bug!)", -- Use this to tell the user how to get a key
+       Title = "BeastNerft KeySystem|discord.gg/sYvN9X2TSf",
+       Subtitle = "Bruh, It Will Be Free Soon!(key get changed every update/bug!)",
+       Note = "Get Key From Discord! [Get Key Here : https://pastebin.com/raw/mkJCNg7n]", -- Use this to tell the user how to get a key
        FileName = "beast key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
        SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
        GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-       Key = {"https://pastebin.com/raw/tDn3REnB"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+       Key = {"https://pastebin.com/raw/mkJCNg7n" , "FreeAimBot"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
     }
  }) 
  
@@ -42,6 +42,7 @@ local Window = Rayfield:CreateWindow({
  local aimbotTab = Window:CreateTab("aimbot", "crosshair")
  
  local Section = aimbotTab:CreateSection("Aimbot Settings")
+
  
  
  local Toggle = aimbotTab:CreateToggle({
@@ -97,11 +98,16 @@ local Window = Rayfield:CreateWindow({
     end,
  })
  
+
+ local Section = aimbotTab:CreateSection("discord.gg/sYvN9X2TSf")
  
- 
+
+
+
  local visualsTab = Window:CreateTab("Visuals", "eye")
  
  local Section = visualsTab:CreateSection("chams")
+
  
  
  local Toggle = visualsTab:CreateToggle({
@@ -118,7 +124,7 @@ local Window = Rayfield:CreateWindow({
     Name = "cham",
     Range = {0, 1},
     Increment = 1,
-    Suffix = "Idk [SOON]",
+    Suffix = "Idk [Broken]",
     CurrentValue = 0,
     Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
     Callback = function(Value)
@@ -138,11 +144,15 @@ local Window = Rayfield:CreateWindow({
         getgenv().targethud.enabled = Value
     end,
  })
+
+ local Section = visualsTab:CreateSection("discord.gg/sYvN9X2TSf")
  
- 
+
+
  local playerTab = Window:CreateTab("Player", "gauge")
  
  local Section = playerTab:CreateSection("PlayerMovement")
+ 
  
  
  local Toggle = playerTab:CreateToggle({
@@ -186,10 +196,14 @@ local Window = Rayfield:CreateWindow({
     keybind = Enum.KeyCode.KeypadDivide -- yes.. i put it as divide.. on the keypad
 }
  
+ local Section = playerTab:CreateSection("discord.gg/sYvN9X2TSf")
+
+
  
  Rayfield:Notify({
-    Title = "Loaded Succefully",
+    Title = "Loaded Succefully|discord.gg/sYvN9X2TSf",
     Content = "Thanks For Using Our Script (Report Any Bug In The Discord Server)",
     Duration = 6.5,
     Image = "loader",
  })
+ 
